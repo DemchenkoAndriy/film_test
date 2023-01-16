@@ -19,7 +19,7 @@ async function OnAddWatchedClick(event) {
 
   let movieID = Number(refs.modalMovieContent.getAttribute('data-id'));
   //--
-
+  console.log('test');
   let indexID = arrayWatched.findIndex(x => x.id === movieID);
 
   if (indexID < 0) {
